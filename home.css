@@ -1,20 +1,38 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: red;
 }
 header {
     background-color: black;
-    color: red
+    color: red;
 }
 a{
-    color: white;
+    color: red;
+    margin-right: 20px;
 }
 /* large-Text */
 .large-text{
     font-size: 24px;
-    color: white;
+    color: black;
 }
 img{
     max-width: 100%;
-    max-height: 600px;
+    display: flex;
+    justify-content: center;
+}
+.nav-flex{
+    display: flex;
+    justify-direction: row;
+    justify-content: flex-end;
+}
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-blog{
+    display: flex;
+    gap: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
