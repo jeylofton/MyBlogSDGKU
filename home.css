@@ -29,7 +29,7 @@ img{
     margin-left: auto;
     margin-right: auto;
 }
-.container-blog{
+.flex-section{
     display: flex;
     gap: 10px;
     width: 80%;
