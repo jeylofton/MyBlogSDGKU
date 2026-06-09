@@ -96,8 +96,8 @@ button{
     margin-left: auto;
     margin-right: auto;
     padding: 10px 20px;
-    background-color: red;
-    color: white;
+    background-color: lightgray;
+    color: black;
     border: none;
     cursor: pointer;
 }
