@@ -1,29 +1,57 @@
-<!DOCTYPE html>
+<!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="home.css">
-    </head>
-    <body>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="home.css"/>
+</head>
+<body>
     <header>
     <h1 class="blog-title">My Blog</h1>
     <nav class="nav-flex">
-    <a href="index.html">Index</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="contact.html">Contact</a>
+        <a href="index.html">Index</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
     </nav>
     </header>
     <main>
+    <div class="form-container">
         <h2>Contact</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ratione nam, fugit architecto harum, reiciendis doloremque dignissimos dolore et atque mollitia incidunt. Explicabo!</p>
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ratione
+        nam, fugit architecto harum, reiciendis doloremque dignissimos dolore
+        et atque mollitia incidunt. Explicabo!
+        </p>
+        <form>
+        <div class="input-container">
+            <label>Name</label>
+            <input type="text" placeholder="Enter Name" />
+        </div>
+        <div class="input-container">
+            <label>Date of Birth</label>
+            <input type="date" />
+        </div>
+        <div class="input-container">
+            <label for="Email">Email</label>
+            <input type="text" placeholder="Email Address" />
+        </div>
+        <div class="input-container">
+            <label>Do you like mountain?</label>
+            <label>
+            <input type="radio" name="mountain" value="yes" />Yes
+            </label>
+            <label> <input type="radio" name="mountain" value="no" />No </label>
+        </div>
+        <button type="submit">Submit</button>
+        </form>
+    </div>
     </main>
-    </body>
+</body>
 </html>
